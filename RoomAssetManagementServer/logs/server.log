@@ -1,0 +1,55 @@
+2025-09-15 15:40:46.369 [main] INFO  c.p.l.s.RoomAssetManagementServer - Starting Room Asset Management Server...
+2025-09-15 15:40:46.375 [main] INFO  c.ptit.ltm.server.socket.TCPServer - Server started on port 8888
+2025-09-15 15:42:54.150 [main] INFO  c.p.l.s.RoomAssetManagementServer - Starting Room Asset Management Server...
+2025-09-15 15:42:54.157 [main] ERROR c.ptit.ltm.server.socket.TCPServer - Server error: Address already in use: bind
+2025-09-15 15:42:54.158 [main] INFO  c.ptit.ltm.server.socket.TCPServer - Server stopped
+2025-09-15 15:42:54.158 [Thread-0] INFO  c.p.l.s.RoomAssetManagementServer - Shutting down server...
+2025-09-15 15:42:54.158 [Thread-0] INFO  c.ptit.ltm.server.socket.TCPServer - Server stopped
+2025-09-15 15:51:53.301 [main] INFO  c.ptit.ltm.server.socket.TCPServer - New client connected: /127.0.0.1
+2025-09-15 15:51:53.324 [pool-1-thread-1] ERROR c.p.ltm.server.socket.ClientHandler - Error handling client: com.ptit.ltm.client.model.Request
+2025-09-15 15:51:53.324 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Connection closed for client: /127.0.0.1
+2025-09-15 17:24:42.417 [main] INFO  c.p.l.s.RoomAssetManagementServer - Starting Room Asset Management Server...
+2025-09-15 17:24:42.424 [main] INFO  c.ptit.ltm.server.socket.TCPServer - Server started on port 8888
+2025-09-15 17:26:06.476 [main] INFO  c.ptit.ltm.server.socket.TCPServer - New client connected: /127.0.0.1
+2025-09-15 17:26:06.492 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: SEARCH_ROOM
+2025-09-15 17:26:06.812 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:26:06.866 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: SEARCH_ASSET
+2025-09-15 17:26:06.887 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:26:30.447 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: ADD_ROOM
+2025-09-15 17:26:30.448 [pool-1-thread-1] ERROR c.p.ltm.server.socket.ClientHandler - Error processing request: Room code must be in format: A101, B202, etc.
+2025-09-15 17:26:43.222 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: ADD_ROOM
+2025-09-15 17:26:43.223 [pool-1-thread-1] ERROR c.p.ltm.server.socket.ClientHandler - Error processing request: Room code must be in format: A101, B202, etc.
+2025-09-15 17:26:49.457 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: ADD_ROOM
+2025-09-15 17:26:49.478 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:26:49.491 [pool-1-thread-1] INFO  c.p.ltm.server.dao.impl.RoomDAOImpl - Created room with ID: 1
+2025-09-15 17:26:49.499 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: SEARCH_ROOM
+2025-09-15 17:26:49.516 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:29:13.064 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: SEARCH_ROOM
+2025-09-15 17:29:13.083 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:29:16.600 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: SEARCH_ROOM
+2025-09-15 17:29:16.618 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:29:36.574 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: ADD_ROOM
+2025-09-15 17:29:36.588 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:29:36.596 [pool-1-thread-1] INFO  c.p.ltm.server.dao.impl.RoomDAOImpl - Created room with ID: 2
+2025-09-15 17:29:36.604 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: SEARCH_ROOM
+2025-09-15 17:29:36.616 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:29:41.442 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: SEARCH_ROOM
+2025-09-15 17:29:41.456 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:29:44.269 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: SEARCH_ROOM
+2025-09-15 17:29:44.281 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:29:48.599 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: DELETE_ROOM
+2025-09-15 17:29:48.613 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:29:48.621 [pool-1-thread-1] INFO  c.p.ltm.server.dao.impl.RoomDAOImpl - Deleted room with ID: 2, affected rows: 1
+2025-09-15 17:29:48.622 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: SEARCH_ROOM
+2025-09-15 17:29:48.634 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:29:57.919 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: SEARCH_ROOM
+2025-09-15 17:29:57.932 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:30:20.539 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: ADD_ASSET
+2025-09-15 17:30:20.539 [pool-1-thread-1] ERROR c.p.ltm.server.socket.ClientHandler - Error processing request: Asset code must be in format: TS01, TS02, etc.
+2025-09-15 17:31:12.133 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: ADD_ASSET
+2025-09-15 17:31:12.155 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:31:12.164 [pool-1-thread-1] INFO  c.p.ltm.server.dao.impl.AssetDAOImpl - Created asset with ID: 1
+2025-09-15 17:31:12.174 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Handling request type: SEARCH_ASSET
+2025-09-15 17:31:12.185 [pool-1-thread-1] INFO  c.p.ltm.server.config.DatabaseConfig - Database connection established
+2025-09-15 17:39:33.854 [pool-1-thread-1] ERROR c.p.ltm.server.socket.ClientHandler - Error handling client: Connection reset
+2025-09-15 17:39:33.855 [pool-1-thread-1] INFO  c.p.ltm.server.socket.ClientHandler - Connection closed for client: /127.0.0.1
